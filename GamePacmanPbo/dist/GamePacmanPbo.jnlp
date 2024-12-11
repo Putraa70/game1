@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GamePacmanPbo.jnlp">
+  <information>
+    <title>GamePacmanPbo</title>
+    <vendor>Acer Nitro5</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GamePacmanPbo.jar" size="46242" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="finalPacman.GamePacmanPbo"  name="GamePacmanPbo" />
+  <update check="always"/>
+</jnlp>
